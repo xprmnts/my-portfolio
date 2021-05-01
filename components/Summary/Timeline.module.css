@@ -1,0 +1,29 @@
+.timeline {
+    margin: 1rem;
+}
+.timeline-title {
+    color: #831515;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.timeline ul {
+    list-style: none;
+}
+
+.timeline li {
+    margin: 0 0 1.5rem 0;
+}
+.experience {
+    font-size: 0.9rem;
+}
+.date {
+    color: rgba(34, 36, 39, 0.5);
+}
+
+.role {
+    font-weight: bold;
+    margin: 0.2rem 0;
+}

@@ -1,0 +1,12 @@
+.summary-container {
+    width: 50rem;
+    margin: auto;
+    display: flex;
+
+    font-family: 'Avenir-Light', 'Helvetica Neue', 'Helvetica', 'Arial',
+        'Lucida Grande', 'sans-serif';
+}
+
+.summary {
+    width: 25rem;
+}
