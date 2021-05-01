@@ -3,12 +3,16 @@ import Timeline from './Timeline.js';
 import classes from './Summary.module.css';
 
 const Summary = ({ summary, timeline }) => {
-    console.log(timeline);
     return (
-        <section className={classes['summary-container']}>
-            <ReactMarkdown className={classes.summary}>{summary}</ReactMarkdown>
-            <Timeline timeline={timeline} />
-        </section>
+        <div className={classes['summary-container']}>
+            <ReactMarkdown className={classes['summary-description']}>
+                {summary}
+            </ReactMarkdown>
+            <Timeline
+                className={classes['summary-timeline']}
+                timeline={timeline}
+            />
+        </div>
     );
 };
 

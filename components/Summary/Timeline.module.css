@@ -1,5 +1,6 @@
 .timeline {
-    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Avenir';
 }
 .timeline-title {
     color: #831515;
@@ -11,6 +12,7 @@
 
 .timeline ul {
     list-style: none;
+    padding: 0rem;
 }
 
 .timeline li {
