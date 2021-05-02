@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import Image from 'next/image';
 import classes from './Skills.module.css';
 
 function Skills({ skills }) {
@@ -19,6 +20,9 @@ function Skills({ skills }) {
     return (
         <Fragment>
             <div className={classes['skills-title']}>Skills</div>
+
+            <img src='/images/koi.svg' alt='koi' className={classes.koi}></img>
+
             <ul className={classes['skills-list']}>
                 {languages.map(lang => (
                     <li>{lang.name}</li>

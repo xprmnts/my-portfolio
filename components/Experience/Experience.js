@@ -34,11 +34,9 @@ const Experience = ({ experience, education, skills }) => {
             <div className={classes['experience-title']}>
                 Brief History In Time
             </div>
-            <ul>
-                {experienceToRender}
-                <Education education={education} />
-                <Skills skills={skills} />
-            </ul>
+            <ul className={classes['experience-list']}>{experienceToRender}</ul>
+            <Education education={education} />
+            <Skills skills={skills} />
         </section>
     );
 };

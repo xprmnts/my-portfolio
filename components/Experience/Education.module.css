@@ -4,6 +4,15 @@
     font-size: 0.9rem;
 }
 
+.education-list {
+    list-style: none;
+    padding: 0rem;
+}
+
+.education-list li {
+    margin: 0 0 1.5rem 0;
+}
+
 .date {
     color: rgba(34, 36, 39, 0.5);
 }

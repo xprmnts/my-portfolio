@@ -1,3 +1,8 @@
+/* .skills {
+    width: 20rem;
+    height: 10rem;
+} */
+
 .skills-title {
     color: #831515;
     font-size: 0.75rem;
@@ -6,23 +11,17 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .koi {
-    width: 266px;
-    height: 75px;
-    display: block;
-    position: absolute;
-    z-index: -1;
-    margin-top: -50px;
-    margin-left: 100px;
+    margin-bottom: -10rem;
 }
 
 .skills-list {
     display: flex;
+    list-style: none;
+    padding: 0rem;
 }
 
 .skills-list li {
-    margin: 0;
-    margin-top: 0.5rem;
     margin-right: 1rem;
+    font-weight: bold;
 }
