@@ -1,6 +1,6 @@
 .footer {
     max-width: 50rem;
-    margin: 2rem auto;
+    margin: 2rem;
     padding: 1rem;
 }
 .social ul {
@@ -35,4 +35,10 @@
 
 .icons a:hover {
     color: #831515;
+}
+
+@media screen and (min-width: 760px) {
+    .footer {
+        margin: 2rem auto;
+    }
 }

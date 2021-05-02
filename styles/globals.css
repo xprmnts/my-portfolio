@@ -22,11 +22,17 @@ a {
 
 .container {
     max-width: 50rem;
-    margin: auto;
+    margin: auto 2rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 .column {
     max-width: 25rem;
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        margin: auto;
+    }
 }

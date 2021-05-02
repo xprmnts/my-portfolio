@@ -1,6 +1,6 @@
 .projects {
     max-width: 50rem;
-    margin: 2rem auto;
+    margin: 2rem;
     padding: 1rem;
     font-family: 'Avenir';
     font-size: 0.9rem;
@@ -20,4 +20,10 @@
     line-height: 1.75em;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+@media screen and (min-width: 760px) {
+    .projects {
+        margin: 2rem auto;
+    }
 }
