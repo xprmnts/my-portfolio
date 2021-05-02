@@ -1,22 +1,24 @@
-.timeline {
-    padding: 1rem;
+.experience {
+    padding: 0rem 2rem;
     font-family: 'Avenir';
 }
-.timeline-title {
+.experience-title {
     color: #831515;
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
+    line-height: 1.75em;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.timeline ul {
+.experience ul {
     list-style: none;
     padding: 0rem;
 }
 
-.timeline li {
+.experience li {
     margin: 0 0 1.5rem 0;
+    padding: 0;
 }
 .experience {
     font-size: 0.9rem;

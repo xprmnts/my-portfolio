@@ -1,7 +1,10 @@
-import classes from './Timeline.module.css';
+import Education from './Education';
+import Skills from './Skills';
 
-const Timeline = ({ timeline }) => {
-    const timelineToRender = timeline.map((item, index) => {
+import classes from './Experience.module.css';
+
+const Experience = ({ experience, education, skills }) => {
+    const experienceToRender = experience.map((item, index) => {
         const from = new Date(item.from.split('-')).toLocaleDateString(
             'en-US',
             {
@@ -27,13 +30,17 @@ const Timeline = ({ timeline }) => {
     });
 
     return (
-        <section className={classes.timeline}>
-            <div className={classes['timeline-title']}>
+        <section className={classes.experience}>
+            <div className={classes['experience-title']}>
                 Brief History In Time
             </div>
-            <ul>{timelineToRender}</ul>
+            <ul>
+                {experienceToRender}
+                <Education education={education} />
+                <Skills skills={skills} />
+            </ul>
         </section>
     );
 };
 
-export default Timeline;
+export default Experience;

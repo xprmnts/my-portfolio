@@ -1,0 +1,14 @@
+.education {
+    padding: 0rem 2rem;
+    font-family: 'Avenir';
+    font-size: 0.9rem;
+}
+
+.date {
+    color: rgba(34, 36, 39, 0.5);
+}
+
+.degree {
+    font-weight: bold;
+    margin: 0.2rem 0;
+}

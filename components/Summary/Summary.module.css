@@ -1,12 +1,4 @@
-.summary-container {
-    max-width: 50rem;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .summary-description {
-    max-width: 25rem;
     padding: 0rem 1rem;
     text-align: justify;
     text-justify: inter-word;
@@ -15,9 +7,5 @@
 .summary-description p {
     font-family: 'Avenir-Light';
     line-height: 1.75em;
-}
-
-.summary-timeline {
-    padding: 1rem;
-    flex-grow: 1;
+    margin-top: 0rem;
 }

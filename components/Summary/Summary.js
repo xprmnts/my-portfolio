@@ -1,18 +1,13 @@
+import { Fragment } from 'react';
 import ReactMarkdown from 'react-markdown';
-import Timeline from './Timeline.js';
+import Timeline from '../Experience/Experience.js';
 import classes from './Summary.module.css';
 
-const Summary = ({ summary, timeline }) => {
+const Summary = ({ summary }) => {
     return (
-        <div className={classes['summary-container']}>
-            <ReactMarkdown className={classes['summary-description']}>
-                {summary}
-            </ReactMarkdown>
-            <Timeline
-                className={classes['summary-timeline']}
-                timeline={timeline}
-            />
-        </div>
+        <ReactMarkdown className={classes['summary-description']}>
+            {summary}
+        </ReactMarkdown>
     );
 };
 
