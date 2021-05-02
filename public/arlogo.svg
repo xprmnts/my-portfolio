@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="128" height="128"></rect>
+        <text id="AR" font-family="HelveticaNeue-LightItalic, Helvetica Neue" font-size="72" font-style="italic" font-weight="300" fill="#3B3B3B">
+            <tspan x="18" y="88">AR</tspan>
+        </text>
+    </g>
+</svg>
