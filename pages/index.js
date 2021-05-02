@@ -8,6 +8,7 @@ import {
 import Header from '../components/Header/Header';
 import Summary from '../components/Summary/Summary';
 import Experience from '../components/Experience/Experience';
+import Footer from '../components/Footer/Footer';
 
 export default function Home(props) {
     return (
@@ -25,6 +26,7 @@ export default function Home(props) {
                     />
                 </div>
             </div>
+            <Footer />
         </Fragment>
     );
 }

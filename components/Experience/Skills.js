@@ -25,17 +25,20 @@ function Skills({ skills }) {
 
             <ul className={classes['skills-list']}>
                 {languages.map(lang => (
-                    <li>{lang.name}</li>
+                    <li key={lang.name}>{lang.name}</li>
                 ))}
             </ul>
             <ul className={classes['skills-list']}>
                 {frameworks.map(item => (
-                    <li>{item.name}</li>
+                    <li key={item.name}>{item.name}</li>
                 ))}
             </ul>
             <ul className={classes['skills-list']}>
                 {otherSkills.map(skill => (
-                    <li className={classes['skills-list-item']}>
+                    <li
+                        key={skill.name}
+                        className={classes['skills-list-item']}
+                    >
                         {skill.name}
                     </li>
                 ))}

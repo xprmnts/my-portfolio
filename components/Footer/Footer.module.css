@@ -1,0 +1,38 @@
+.footer {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.social ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    /* margin-left: -10px; */
+}
+.social li {
+    margin: 1rem;
+}
+.social li:hover {
+    opacity: 1;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+    /* padding: 10px; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icons a {
+    color: #181a1b;
+    font-size: 2rem;
+}
+
+.icons a:hover {
+    color: #831515;
+}
