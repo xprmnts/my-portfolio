@@ -1,0 +1,16 @@
+.projects {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Avenir';
+    font-size: 0.9rem;
+}
+
+.projects-title {
+    color: #831515;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+}

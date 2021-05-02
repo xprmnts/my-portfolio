@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import Image from 'next/image';
 import classes from './Skills.module.css';
 
 function Skills({ skills }) {
