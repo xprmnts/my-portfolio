@@ -6,6 +6,13 @@
     font-size: 0.9rem;
 }
 
+.projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .projects-title {
     color: #831515;
     font-size: 0.75rem;

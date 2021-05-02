@@ -1,18 +1,19 @@
-import { getProjects } from '../../lib/content-utils';
-import Projects from './Projects';
+import classes from './ProjectItem.module.css';
 
 function ProjectItem({ project }) {
     return (
-        <a
-            href={project.url ? project.url : '/'}
-            target='_blank'
-            rel='noopener noreferrer'
-        >
-            <h4>
-                <div>{project.title}</div>
-            </h4>
-            <p>{project.description}</p>
-        </a>
+        <li className={classes['project-item']}>
+            <a
+                href={project.url ? project.url : '/'}
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <h4>
+                    <div>{project.title}</div>
+                </h4>
+                <p>{project.description}</p>
+            </a>
+        </li>
     );
 }
 

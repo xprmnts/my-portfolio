@@ -3,11 +3,13 @@ import {
     getFeaturedSummary,
     getExperience,
     getEducation,
-    getSkills
+    getSkills,
+    getProjects
 } from '../lib/content-utils';
 import Header from '../components/Header/Header';
 import Summary from '../components/Summary/Summary';
 import Experience from '../components/Experience/Experience';
+import Projects from '../components/Projects/Projects';
 import Footer from '../components/Footer/Footer';
 
 export default function Home(props) {
@@ -26,6 +28,7 @@ export default function Home(props) {
                     />
                 </div>
             </div>
+            <Projects projects={props.projects} />
             <Footer />
         </Fragment>
     );
@@ -36,12 +39,15 @@ export async function getStaticProps() {
     const experience = await getExperience();
     const education = await getEducation();
     const skills = await getSkills();
+    const projects = await getProjects();
+
     return {
         props: {
             summaryDescription,
             experience,
             education,
-            skills
+            skills,
+            projects
         }
     };
 }
