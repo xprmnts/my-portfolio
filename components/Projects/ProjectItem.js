@@ -9,10 +9,18 @@ function ProjectItem({ project }) {
                 rel='noopener noreferrer'
             >
                 <h4>
-                    <div>{project.title}</div>
+                    <div
+                        className={
+                            project.comingSoon === 'true'
+                                ? `${classes['coming-soon']}`
+                                : ''
+                        }
+                    >
+                        {project.title}
+                    </div>
                 </h4>
-                <p>{project.description}</p>
             </a>
+            <p>{project.description}</p>
         </li>
     );
 }

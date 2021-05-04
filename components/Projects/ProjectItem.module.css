@@ -10,6 +10,10 @@
     font-size: 1.4em;
 }
 
+.project-item h4:hover {
+    color: #831515;
+}
+
 .coming-soon::after {
     content: 'COMING SOON';
     text-transform: uppercase;
