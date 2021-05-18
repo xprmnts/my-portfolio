@@ -1,5 +1,11 @@
 [
     {
+        "title": "Messenger: Real-time Chat",
+        "description": "Full-stack React/Redux application leveraging Sockets.io for real-time events.",
+        "comingSoon": "false",
+        "url": "https://github.com/xprmnts/hw-messenger-app"
+    },
+    {
         "title": "Mastermind I: CLI",
         "description": "A command line version of the classic Mastermind code breaking game using Node JS.",
         "comingSoon": "false",
@@ -12,23 +18,8 @@
         "url": "https://mastermind.abhinayreddy.com"
     },
     {
-        "title": "Mastermind III: API",
-        "description": "Build your own version of the Mastermind Game using the Mastermind API!",
-        "comingSoon": "true"
-    },
-    {
         "title": "Mastermind IV: Evolved",
         "description": "Create an account, store your game history and compare your skills against the leaderboard.",
-        "comingSoon": "true"
-    },
-    {
-        "title": "Mastermind V: Mobile",
-        "description": "Take Mastermind wherever you go on your Android or iPhone!",
-        "comingSoon": "true"
-    },
-    {
-        "title": "Mastermind VI: Battlefield",
-        "description": "Compete against your friends online in real-time and see if you are truly the best code-breaker.",
         "comingSoon": "true"
     }
 ]
