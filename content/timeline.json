@@ -1,25 +1,25 @@
 [
     {
-        "from": "2020-02",
-        "to": "2021-05",
+        "from": "2020/01/01",
+        "to": "2021/04/01",
         "role": "Product Manager",
         "company": "Bolt"
     },
     {
-        "from": "2018-12",
-        "to": "2020-02",
+        "from": "2018/11/01",
+        "to": "2020/01/01",
         "role": "Product Manager",
         "company": "Walmart Labs"
     },
     {
-        "from": "2018-06",
-        "to": "2018-12",
+        "from": "2018/05/01",
+        "to": "2018/11/01",
         "role": "Product Manager",
         "company": "TribalScale"
     },
     {
-        "from": "2015-06",
-        "to": "2017-09",
+        "from": "2015/05/01",
+        "to": "2017/08/01",
         "role": "Product & Delivery Manager",
         "company": "Lean Industries"
     }
