@@ -5,15 +5,12 @@ import classes from './Experience.module.css';
 
 const Experience = ({ experience, education, skills }) => {
     const experienceToRender = experience.map((item, index) => {
-        const from = new Date(item.from.split('-')).toLocaleDateString(
-            'en-US',
-            {
-                month: 'short',
-                year: 'numeric'
-            }
-        );
+        const from = new Date(item.from).toLocaleDateString('en-US', {
+            month: 'short',
+            year: 'numeric'
+        });
 
-        const to = new Date(item.to.split('-')).toLocaleDateString('en-US', {
+        const to = new Date(item.to).toLocaleDateString('en-US', {
             month: 'short',
             year: 'numeric'
         });
