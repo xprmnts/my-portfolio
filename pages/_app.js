@@ -15,11 +15,22 @@ function MyApp({ Component, pageProps }) {
                 <title>Abhinay Reddy</title>
                 <meta name='author' content='Abhinay Reddy' />
                 <link rel='icon' type='image/svg' href='/arlogo.svg' />
-                {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+                {/* Global Site Tag (gtag.js) - Google Analytics */}
                 <script
                     async
-                    src='https://www.googletagmanager.com/gtag/js?id=G-YYLF8TN14S'
-                ></script>
+                    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                        page_path: window.location.pathname,
+                        });`
+                    }}
+                />
             </Head>
             <Component {...pageProps} />
         </Fragment>
