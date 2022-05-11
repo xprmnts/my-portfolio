@@ -24,11 +24,23 @@
         "type": "framework"
     },
     {
+        "name": "GraphQL",
+        "type": "framework"
+    },
+    {
         "name": "PostgreSQL",
         "type": "other"
     },
     {
+        "name": "MySQL",
+        "type": "other"
+    },
+    {
         "name": "MongoDB",
+        "type": "other"
+    },
+    {
+        "name": "AWS",
         "type": "other"
     }
 ]
