@@ -1,5 +1,11 @@
 [
     {
+        "from": "2021/06/01",
+        "to": "",
+        "role": "Software Engineer",
+        "company": "Tales"
+    },
+    {
         "from": "2020/01/01",
         "to": "2021/04/01",
         "role": "Product Manager",
